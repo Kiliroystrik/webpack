@@ -8,6 +8,7 @@ export default class ProductComponent {
 
     init() {
         this.pageRouterContainer = document.getElementById('router');
+        this.pageRouterContainer.innerHTML = '';
         this.pageContainer = document.createElement('div');
         this.pageContainer.classList.add('product');
         this.pageRouterContainer.appendChild(this.pageContainer);
